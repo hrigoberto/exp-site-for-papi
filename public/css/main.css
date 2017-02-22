@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   font-family: Roboto, Helvetica;
   font-weight: lighter;
-  color: #5eb3bd;
+  color: #f7f7f1;
 }
 
 h1, h2, h3 {
@@ -14,14 +14,33 @@ h1, h2, h3 {
   padding: 0;
 }
 
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 
 .toppiece {
 height:50%;
 width:100%;
+/*background-image: url('https://s3.amazonaws.com/mimisfriends/4160535569_2bfbd190cc_o.jpg');*/
 background: linear-gradient(to right, #5eb3bd , #51dbbf);
 background-color:#5eb3bd;
-margin:auto;
+/*margin:auto;*/
+overflow: hidden;
 box-shadow: 15px, 3px, 3px, 3px, blue;
+text-align: center;
+}
+
+.toppiece img {
+  width: 40%;
 }
 
 .filler1 {
@@ -34,6 +53,7 @@ box-shadow: 15px, 3px, 3px, 3px, blue;
   width:100%;
   background-color: #f7f7f1;
   margin: auto;
+  color: #5eb3bd;
 }
 
 .header {
