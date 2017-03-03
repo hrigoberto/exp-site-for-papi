@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  color: #5eb3bd;
+}
+
+h1, h2, h3 , h4, h5, h6{
+  /*font-family: Helvetica;*/
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+.parallaxtop {
+height:50%;
+width:100%;
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Yacht_Custom_Line_Navetta_26.jpg");
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin:auto;
+box-shadow: 15px, 3px, 3px, 3px, blue;
+}
+
+.bottompiece {
+  width:100%;
+  background-color: #f7f7f1;
+  margin: auto;
+}
+
+.header {
+    background-color: transparent;
+    /*border: 2px solid #ffffff;
+    border-radius: 4px;*/
+    color: #5eb3bd;
+    width: 100%;
+    float: right;
+}
+
+.fineline {
+  height: 1px;
+  width: 100%;
+  margin: auto;
+  background-color: #5eb3bd;
+}
+
+.splashtext {
+  font-size: 1.8em;
+  font-family: 'Roboto', Helvetica;
+  text-align: center;
+  height: 60%;
+  width: 100%;
+}
+
+.splashtextService {
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  display: inline-block;
+  margin-top: 10%;
+  color: #5eb3bd;
+  text-align: center;
+  width: 100%;
+}
+
+.botline {
+  height: 1px;
+  width: 80%;
+  margin-bottom: 1%;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 50%;
+  color: #5eb3bd;
+  font-family: 'Dancing', cursive;;
+}
+
+.footerContact {
+  font-size: 80%;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: .5em;
+}
+
+.nav-list-item {
+  display: inline;
+  color: #f7f7f1;
+  text-decoration: none;
+  padding: 8px;
+}
