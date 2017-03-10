@@ -4,6 +4,8 @@ html, body {
   height: 100%;
   font-weight: lighter;
   color: #5eb3bd;
+  background: linear-gradient(to right, #025163, #5eb3bd);
+
 }
 
 /*https://upload.wikimedia.org/wikipedia/commons/a/a5/Yacht_Custom_Line_Navetta_26.jpg
@@ -14,7 +16,7 @@ https://static.pexels.com/photos/65139/pexels-photo-65139.jpeg
 
 .parallax {
 width:100%;
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Yacht_Custom_Line_Navetta_26.jpg");
+background-image: url("https://static.pexels.com/photos/65139/pexels-photo-65139.jpeg");
 height: 100%;
 background-attachment: fixed;
 background-position: center;
@@ -48,12 +50,14 @@ box-shadow: inset 0px 2px 4px #2b4c60;
   margin: 0 auto;
   text-align: center;
   color: white;
+  background-color: #025163;
+  background: linear-gradient(to right, #025163, #5eb3bd);
   /*box-shadow: inset 0px 12px 20px #2b4c60;*/
-  background-image: url('https://static.pexels.com/photos/65139/pexels-photo-65139.jpeg');
+  /*background-image: url('https://static.pexels.com/photos/65139/pexels-photo-65139.jpeg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 /*.buttonParallax::before {
@@ -102,6 +106,26 @@ box-shadow: inset 0px 2px 4px #2b4c60;
   -webkit-appearance: none;
   -moz-appearance:    none;
   appearance:         none;
+}
+
+.calendar-container {
+  background-color: #025163;
+  background: linear-gradient(to right, #025163, #5eb3bd);
+
+  /*justify-content: center;*/
+  /*background-image: url('https://static.pexels.com/photos/65139/pexels-photo-65139.jpeg');*/
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+#calendar {
+  /*text-align: center;*/
+  margin: 100px auto;
+  color: white;
+  width: 50%;
+  background-color: #5eb3bd;
 }
 
 #captpic {
